@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body .fa-folder:before {
+  content: url("assets/folder-close.svg");
+}
+body .fa-folder-open:before {
+  content: url("assets/folder-open.svg");
+}
+body .fa-file-word-o:before {
+  content: url("assets/file-tree.svg");
+}
