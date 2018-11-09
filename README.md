@@ -9,6 +9,39 @@ This is an Angular library for folder upload. This library only provides the cor
 ## Installing an usage
 `npm i ngx-folder-uploader-lib --save`
 
+##### Load the module for your app
+```javascript
+import { NgxFolderUploaderLibModule } from 'ngx-folder-uploader-lib';
+
+@NgModule({
+  declarations: [
+    ...
+  ],
+  imports: [
+    ...,
+    NgxFolderUploaderLibModule
+  ],
+  providers: [],
+})
+
+```
+
+##### Use it in your HTML template
+```html
+<div id="dropzone" fuDropzone (filesLoaded)="onFilesLoaded($event)" (dropZoneActive)="onActive()" (dropZoneInactive)="onInactive()" (error)="onErr($event)" />
+```
+
+```javascript
+fuDropzone              // Used to declare dropzone area.
+(filesLoaded)           // Event handler for dropzone load complete event. 
+                        // It sends out
+                        // folderData -- this is used for display folder structure.
+                        // filesData  --  this is used for POST files to backend.
+(dropZoneActive)        // Event handler for the dropzone active event.
+(dropZoneInactive)      // Event handler for the dropzone inactive event.
+(error)                 // Event handler for the dropzone error event.
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
