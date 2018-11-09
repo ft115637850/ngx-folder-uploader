@@ -1,6 +1,5 @@
 # NgxFolderUploaderLibApp
-[版本图片](https://badge.fury.io/js/ngx-folder-uploader-lib.svg)
-
+<a href="https://badge.fury.io/js/ngx-folder-uploader-lib"><img src="https://badge.fury.io/js/ngx-folder-uploader-lib.svg" align="right" alt="npm version" height="18"></a>
 
 ![image](https://github.com/ft115637850/ngx-folder-uploader/blob/master/preview.gif)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
