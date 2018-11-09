@@ -1,0 +1,11 @@
+<p>Drag files and/or directories to the box below!</p>
+
+<div id="dropzone" fuDropzone (filesLoaded)="onFilesLoaded($event)" (dropZoneActive)="onActive()" (dropZoneInactive)="onInactive()"
+  (error)="onErr($event)"  [ngStyle]="{'background-color': isActive ? 'red' : 'transparent' }">
+  <div id="boxtitle">
+    {{unSupportedMsg ? unSupportedMsg : 'Drop Folders or Files Here'}}
+  </div>
+</div>
+
+<h2>Directory tree:</h2>
+<p-tree [value]="files"></p-tree>
