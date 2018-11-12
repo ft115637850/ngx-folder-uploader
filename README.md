@@ -1,6 +1,6 @@
 # Angular Folder Uploader
 
-<a href="https://badge.fury.io/js/ngx-folder-uploader-lib"><img src="https://badge.fury.io/js/ngx-folder-uploader-lib.svg" align="right" alt="npm version" height="18"></a>
+<a href="https://badge.fury.io/js/ngx-folder-uploader-lib"><img src="https://badge.fury.io/js/ngx-folder-uploader-lib.svg" alt="npm version" height="18"></a>
 
 This is an Angular library for folder upload. This library only provides the core behavior of folder upload. Drag folders or files into the dropzone area. By event, it will send you the data to display or to upload. For appearance, you can define whatever you want. And because most frontend projects have their own services to send data to backend, this lib doesn't encapsulate POST method. Instead, it pass out the file data for you to post in your way.
 
