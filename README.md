@@ -49,7 +49,3 @@ fuDropzone              // Used to declare dropzone area.
 ```
 
 For more detail, check `src/app` as example.
-
-## Build
-
-Run `ng build ngx-folder-uploader-lib` to build the library project. The build artifacts will be stored in the `dist/ngx-folder-uploader-lib/` directory. Use the `--prod` flag for a production build.
