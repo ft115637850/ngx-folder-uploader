@@ -95,6 +95,9 @@ export class DropzoneDirective {
         observer.next();
         observer.complete();
       });
+    } else {
+      observer.next();
+      observer.complete();
     }
   }
 }
