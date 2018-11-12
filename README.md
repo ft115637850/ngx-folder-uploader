@@ -6,6 +6,12 @@ This is an Angular library for folder upload. This library only provides the cor
 
 ![image](https://github.com/ft115637850/ngx-folder-uploader/blob/master/preview.gif)
 
+## Browser versions tested
+
+* Google Chrome 70
+* Mozilla Firefox 63
+* Apple Safari 11.1.0
+
 ## Installing an usage
 `npm i ngx-folder-uploader-lib --save`
 
@@ -43,10 +49,6 @@ fuDropzone              // Used to declare dropzone area.
 ```
 
 For more detail, check `src/app` as example.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
