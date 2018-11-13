@@ -12,8 +12,7 @@ branches:
 
 before_script:
   - npm install -g @angular/cli
+  - ng build ngx-folder-uploader-lib
 
 script:
-  - ng build ngx-folder-uploader-lib
   - ng build --prod --aot
-  - ng test
